@@ -152,3 +152,4 @@ if(data.min()>0):
 	plt.xlim((0,len(samples)))
 	plt.colorbar(pad=0.04, ticks=[-1,0,data.max()])
 	plt.savefig(options.output_file,bbox_inches='tight')
+
